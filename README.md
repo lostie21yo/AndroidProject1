@@ -1,13 +1,11 @@
-# Manga-Gluer
+# AndroidProject1
 
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lostie21yo/Manga-Gluer">
     <img src="ico.png" alt="Logo" width="80" height="80">
-  </a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,21 +34,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Manga Slicer is a simple program which designed to glue images with each other and make a 'scans' that used to create a Japan comics. The program is also equipped with a pin code (current PIN is "1994") for greater security in private use.
-
-Input: user-selected folder with images in png/jpg format
-
-Output: long image (scan) saved as png
-
-You can also take a look at [Manga-Slicer](https://github.com/lostie21yo/Manga-Slicer)
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
 
-* Python 3.10.7
-* tkinter
+* SDK Android Studio
+* Kotlin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,11 +54,7 @@ You can also take a look at [Manga-Slicer](https://github.com/lostie21yo/Manga-S
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/lostie21yo/Manga-Gluer
-   ```
-2. Use executable file .exe or run .py file
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,9 +62,7 @@ You can also take a look at [Manga-Slicer](https://github.com/lostie21yo/Manga-S
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Enter a pin code <strong>1994</strong>
-2. Select the maximum size of one scan with slider
-3. Choose the folder with images by pressing "Выбрать папку с изображениями"
+-
 
 <div align="center">
     <img src="screen1.png" alt="interface" width='40%'>
@@ -90,7 +76,7 @@ You can also take a look at [Manga-Slicer](https://github.com/lostie21yo/Manga-S
 
 Your Name - [Telegram](https://t.me/leoncox) - leon.coxsw@gmail.com
 
-Project Link: [Manga-Slicer](https://github.com/lostie21yo/Manga-Gluer)
+Project Link: [AndroidProject1](https://github.com/lostie21yo/AndroidProject1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
