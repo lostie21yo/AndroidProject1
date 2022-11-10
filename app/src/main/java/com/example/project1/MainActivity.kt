@@ -2,44 +2,36 @@ package com.example.project1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.util.Log
+import android.view.View
+import android.widget.TextView
+import kotlin.math.pow
 
 class MainActivity : AppCompatActivity() {
+
+    val const:Double = 2.0 // неизменяямая константа
+    var counter:Int = 0 // изменяемая переменная
+    var res:Double = 0.0
+    var bool:Boolean = "Привет, всему миру!".endsWith("миру!!")
+    lateinit var tv : TextView // var tv : TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("MyLogMAct", "onCreate")
+        tv = findViewById(R.id.tvTest)
+        Log.d("TestLog", bool.toString())
     }
 
-    override fun onStart() {
-        super.onStart()
-        Log.d("MyLogMAct", "onStart")
+    fun onClickTest(view: View){
+        counter += 1
+        res = const.pow(counter)
+        tv.text = res.toString()
     }
 
-    override fun onResume() {
-        super.onResume()
-        Log.d("MyLogMAct", "onResume")
+    fun onClickErase(view: View) {
+        res = 0.0
+        counter = 0
+        tv.text = "Erased!"
     }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("MyLogMAct", "onPause")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("MyLogMAct", "onStop")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("MyLogMAct", "onDestroy")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.d("MyLogMAct", "onRestart")
-    }
-
 }
